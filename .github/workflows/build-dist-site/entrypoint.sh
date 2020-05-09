@@ -46,7 +46,7 @@ git add .
 git commit -m "Github Actions - $(date)"
 echo "Build branch ready to go. Pushing to Github..."
 # Force push this update to our gh-pages
-git push --force $REMOTE_REPO
+git push --force $REMOTE_REPO master:gh-pages
 # Now everything is ready.
 # Lets just be a good citizen and clean-up after ourselves
 rm -fr .git

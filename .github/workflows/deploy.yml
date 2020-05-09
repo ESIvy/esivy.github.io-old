@@ -6,7 +6,7 @@ name: deploy
 on:
   push:
     branches:
-      - master
+      - source
 
 # Here is where we define our jobs.
 # Which means the tasks we want Github to execute

@@ -1,0 +1,23 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.site-title {
+  text-align: center;
+  width: 100%;
+  font-size: 50px;
+  padding-top: 40px;
+  padding-bottom: 5px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.site-subtitle {
+  text-align: center;
+  width: 100%;
+  font-style: italic;
+  font-family: "Droid Serif","Helvetica Neue",sans-serif;
+  padding-bottom: 30px;
+  color: gray;
+}

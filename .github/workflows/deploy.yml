@@ -29,6 +29,8 @@ jobs:
       # Notice that we are specifying the path to the action here.
       # We will create those files in a sec
       - uses: ./.github/actions/build-dist-site
+        with:
+          branch: source
         env:
           # Now make sure you add this environment variable.
           # This token will allow us to push to github directly

@@ -15,7 +15,7 @@ jobs:
       run: |
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+        jekyll/builder:4.0 /bin/bash -c "chmod 777 /srv/jekyll && chmod -R 777 /usr/gem/cache && jekyll build --future"
     - name: GitHub Push
       uses: ad-m/github-push-action@v0.5.0
       with:

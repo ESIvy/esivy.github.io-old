@@ -30,10 +30,10 @@ jobs:
           key: ts-${{ runner.os }}-jekyll-${{steps.find.outputs.jekyllHash}}
           restore-keys: |
             ts-${{ runner.os }}-jekyll-
-      - name: Set up Ruby 2.6
+      - name: Set up Ruby 2.7
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.6 # can change this to 2.7 or whatever version you prefer
+          ruby-version: 2.7 # can change this to 2.7 or whatever version you prefer
       - name: Build jekyll site
         uses: limjh16/jekyll-action-ts@v2
         with:

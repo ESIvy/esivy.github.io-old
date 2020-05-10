@@ -276,6 +276,14 @@ table td { border: 1px solid #e8e8e8; }
 
 .site-title { text-align: center; width: 100%; font-size: 50px; padding-top: 40px; padding-bottom: 5px; letter-spacing: 4px; text-transform: uppercase; }
 
+.site-title:hover { text-decoration: none; }
+
 .site-subtitle { text-align: center; width: 100%; font-style: italic; font-family: "Droid Serif","Helvetica Neue",sans-serif; padding-bottom: 30px; color: gray; }
+
+.categories { padding-bottom: 20px; display: flex; flex-wrap: wrap; }
+
+.categories > a { padding: 5px; font-size: 30px; }
+
+.supercat { font-size: 30px; padding-bottom: 20px; }
 
 /*# sourceMappingURL=style.css.map */

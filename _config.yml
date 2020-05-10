@@ -26,6 +26,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://esivy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: esivy
 github_username:  esivy
+facebook_username: E.S.IvyAuthor
+pintrest_username: esivy
+instagram_username: mombehindthecurtain
 
 # Build settings
 theme: minima
@@ -52,3 +55,21 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+header_pages:
+  - blog/index.html
+  - _category/foodandfun.md
+
+permalink: /:title/
+
+collections:
+  category:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"

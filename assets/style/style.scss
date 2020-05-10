@@ -13,6 +13,10 @@
   text-transform: uppercase;
 }
 
+.site-title:hover {
+  text-decoration: none;
+}
+
 .site-subtitle {
   text-align: center;
   width: 100%;
@@ -20,4 +24,20 @@
   font-family: "Droid Serif","Helvetica Neue",sans-serif;
   padding-bottom: 30px;
   color: gray;
+}
+
+.categories {
+  padding-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.categories > a {
+  padding: 5px;
+  font-size: 30px;
+}
+
+.supercat {
+  font-size: 30px;
+  padding-bottom: 20px;
 }
